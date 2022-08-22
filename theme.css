@@ -1,0 +1,151 @@
+/* Them for Obsidian */
+body {
+	--my-font-sans-serif: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+	--my-font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	--my-font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+	--my-color-accent-1000: lch(from var(--color-accent) 100% c h);
+	--my-color-accent-900: lch(from var(--color-accent) 90% c h);
+	--my-color-accent-800: lch(from var(--color-accent) 80% c h);
+	--my-color-accent-700: lch(from var(--color-accent) 70% c h);
+	--my-color-accent-600: lch(from var(--color-accent) 60% c h);
+	--my-color-accent-500: lch(from var(--color-accent) 50% c h);
+	--my-color-accent-400: lch(from var(--color-accent) 40% c h);
+	--my-color-accent-300: lch(from var(--color-accent) 30% c h);
+	--my-color-accent-200: lch(from var(--color-accent) 20% c h);
+	--my-color-accent-100: lch(from var(--color-accent) 10% c h);
+	--my-color-accent-0: lch(from var(--color-accent) 0% c h);
+
+	--my-color-grey-1000: lch(100% 0.01 296.81);
+	--my-color-grey-900: lch(90% 0.01 296.81);
+	--my-color-grey-800: lch(80% 0.01 296.81);
+	--my-color-grey-700: lch(70% 0.01 296.81);
+	--my-color-grey-600: lch(60% 0.01 296.81);
+	--my-color-grey-500: lch(50% 0.01 296.81);
+	--my-color-grey-400: lch(40% 0.01 296.81);
+	--my-color-grey-300: lch(30% 0.01 296.81);
+	--my-color-grey-200: lch(20% 0.01 296.81);
+	--my-color-grey-100: lch(10% 0.01 296.81);
+	--my-color-grey-0: lch(0% 0.01 296.81);
+
+	--my-color-red-1000: lch(100% 96.5 43.1);
+	--my-color-red-900: lch(90% 96.5 43.1);
+	--my-color-red-800: lch(80% 96.5 43.1);
+	--my-color-red-700: lch(70% 96.5 43.1);
+	--my-color-red-600: lch(60% 96.5 43.1);
+	--my-color-red-500: lch(50% 96.5 43.1);
+	--my-color-red-400: lch(40% 96.5 43.1);
+	--my-color-red-300: lch(30% 96.5 43.1);
+	--my-color-red-200: lch(20% 96.5 43.1);
+	--my-color-red-100: lch(10% 96.5 43.1);
+	--my-color-red-0: lch(0% 96.5 43.1);
+
+	--my-color-blue-1000: lch(100% 67.81 284.95);
+	--my-color-blue-900: lch(90% 67.81 284.95);
+	--my-color-blue-800: lch(80% 67.81 284.95);
+	--my-color-blue-700: lch(70% 67.81 284.95);
+	--my-color-blue-600: lch(60% 67.81 284.95);
+	--my-color-blue-500: lch(50% 67.81 284.95);
+	--my-color-blue-400: lch(40% 67.81 284.95);
+	--my-color-blue-300: lch(30% 67.81 284.95);
+	--my-color-blue-200: lch(20% 67.81 284.95);
+	--my-color-blue-100: lch(10% 67.81 284.95);
+	--my-color-blue-0: lch(0% 67.81 284.95);
+
+	--my-color-yellow-1000: lch(100% 59.18 98.21);
+	--my-color-yellow-900: lch(90% 59.18 98.21);
+	--my-color-yellow-800: lch(80% 59.18 98.21);
+	--my-color-yellow-700: lch(70% 59.18 98.21);
+	--my-color-yellow-600: lch(60% 59.18 98.21);
+	--my-color-yellow-500: lch(50% 59.18 98.21);
+	--my-color-yellow-400: lch(40% 59.18 98.21);
+	--my-color-yellow-300: lch(30% 59.18 98.21);
+	--my-color-yellow-200: lch(20% 59.18 98.21);
+	--my-color-yellow-100: lch(10% 59.18 98.21);
+	--my-color-yellow-0: lch(0% 59.18 98.21);
+
+
+	--text-font: var(--my-font-sans-serif);
+	--h1-font: var(--my-font-serif);
+	--h2-font: var(--my-font-serif);
+	--h3-font: var(--my-font-serif);
+	--h4-font: var(--my-font-sans-serif);
+	--h5-font: var(--my-font-sans-serif);
+	--h6-font: var(--my-font-sans-serif);
+	--font-monospace: var(--my-font-mono);
+
+	--text-normal: var(--my-color-grey-200);
+	--text-highlight-bg: var(--my-color-yellow-1000);
+
+	--background-primary: var(--my-color-grey-1000);
+	--background-secondary: var(--my-color-grey-1000);
+
+	--nav-item-background-active: var(--my-color-accent-600);
+	--nav-item-color-active: var(--my-color-grey-1000);
+
+	--p-spacing-empty: .3rem;
+	--line-height-normal: 1.5rem;
+
+	--my-bg-image-external: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWV4dGVybmFsLWxpbmstaWNvbiBsdWNpZGUtZXh0ZXJuYWwtbGluayI+PHBhdGggZD0iTTE1IDNoNnY2Ii8+PHBhdGggZD0iTTEwIDE0IDIxIDMiLz48cGF0aCBkPSJNMTggMTN2NmEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY4YTIgMiAwIDAgMSAyLTJoNiIvPjwvc3ZnPg==');
+}
+
+.cm-inline-code {
+	--code-background: var(--my-color-blue-1000);
+}
+
+.HyperMD-codeblock-begin.HyperMD-codeblock-begin.HyperMD-codeblock-begin {
+	margin-top: .5rem !important;
+}
+.HyperMD-codeblock-end.HyperMD-codeblock-end.HyperMD-codeblock-end {
+	margin-bottom: .5rem !important;
+}
+
+.HyperMD-header-1 {
+	text-align: center;
+}
+
+.cm-hmd-internal-link,
+.cm-url,
+.cm-link {
+	--link-color: var(--my-color-blue-500);
+	--link-color-hover: var(--my-color-blue-700);
+	--link-external-color: var(--my-color-blue-500);
+	--link-external-color-hover: var(--my-color-blue-700);
+}
+
+:is(
+	.cm-hmd-internal-link,
+	.cm-url,
+	.cm-link
+):hover {
+	--link-color: var(--my-color-blue-500);
+	--link-color-hover: var(--my-color-blue-700);
+	--link-external-color: var(--my-color-blue-500);
+	--link-external-color-hover: var(--my-color-blue-700);
+}
+
+.cm-url:after {
+	--icon-size: 14px;
+
+	opacity: .5;
+	content: '';
+	display: inline-block;
+	width: var(--icon-size);
+	height: var(--icon-size);
+	padding-left: 0.1rem;
+	vertical-align: middle;
+	line-height: var(--line-height-normal);
+	background-image: var(--my-bg-image-external);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: var(--icon-size) var(--icon-size);
+}
+
+.external-link {
+	background-image: none;
+	padding-inline-end: 0;
+}
+
+.tree-item-self.is-clickable {
+	cursor: pointer;
+}
